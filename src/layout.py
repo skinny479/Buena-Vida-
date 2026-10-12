@@ -4,14 +4,14 @@ Run:  python3 src/build.py
 Edit the CONTACT dict below once to update phone/address/email/hours on every page.
 """
 
-# TODO(owner): replace placeholders with real practice details.
 CONTACT = {
-    "phone": "(479) 000-0000",
-    "phone_href": "+14790000000",
-    "email": "info@buenavidachiropractic.com",
-    "street": "Street address",
-    "city": "Springdale, AR 72764",
-    "map_query": "Buena+Vida+Chiropractic+Springdale+AR",
+    "phone": "(479) 751-2322",
+    "phone_href": "+14797512322",
+    "fax": "(479) 239-4855",
+    "email": "buenavida479@gmail.com",
+    "street": "7260 Village Park Ave, Ste A",
+    "city": "Springdale, AR 72762",
+    "map_query": "7260+Village+Park+Ave+Ste+A,+Springdale,+AR+72762",
 }
 
 NAV = [
@@ -87,6 +87,7 @@ def footer():
             <li>{c['street']}</li>
             <li>{c['city']}</li>
             <li><a href="tel:{c['phone_href']}">{c['phone']}</a></li>
+            <li>Fax: {c['fax']}</li>
             <li><a href="mailto:{c['email']}">{c['email']}</a></li>
           </ul>
         </div>

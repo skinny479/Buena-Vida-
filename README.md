@@ -21,7 +21,6 @@ Preview: open `index.html` in a browser.
 
 ## Before launch: fill in placeholders
 Search for `TODO(owner)`:
-- Phone, street address and email (`CONTACT` in `src/layout.py`)
 - Office hours (`src/pages/contact.html`)
 - Care team names, bios and photos (`src/pages/staff.html`)
 - Dr. Le's education and credentials, plus a photo
