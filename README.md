@@ -22,7 +22,6 @@ Preview: open `index.html` in a browser.
 ## Before launch: fill in placeholders
 Search for `TODO(owner)`:
 - Care team names, bios and photos (`src/pages/staff.html`)
-- Dr. Le's education and credentials, plus a photo
-- Accepted insurance and self-pay pricing (`src/pages/new-patients.html`)
+- Dr. Le's photo
 
-The appointment form currently opens the visitor's email app. Connect it to a booking tool (Jane, ChiroTouch, Calendly, Formspree, etc.) for real online scheduling.
+Online booking works by email: the appointment form opens the visitor's email app with the request filled in, addressed to the practice inbox.

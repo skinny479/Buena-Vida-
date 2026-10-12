@@ -31,7 +31,7 @@ def header(active):
     c = CONTACT
     return f"""  <div class="topbar">
     <div class="container">
-      <span>Minority-owned &amp; proudly serving Springdale and Northwest Arkansas</span>
+      <span>Minority-owned · Se habla español · All insurance accepted</span>
       <span>Call <a href="tel:{c['phone_href']}">{c['phone']}</a></span>
     </div>
   </div>
