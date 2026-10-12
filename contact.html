@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact & Book | Buena Vida Chiropractic</title>
+  <meta name="description" content="Book an appointment with Buena Vida Chiropractic in Springdale, AR.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23c8553d'/%3E%3Ctext x='50' y='64' font-size='42' text-anchor='middle' fill='white' font-family='Georgia'%3EBV%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <div class="topbar">
+    <div class="container">
+      <span>Minority-owned &amp; proudly serving Springdale and Northwest Arkansas</span>
+      <span>Call <a href="tel:+14790000000">(479) 000-0000</a></span>
+    </div>
+  </div>
+  <header class="nav">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="Buena Vida Chiropractic home">
+        <span class="brand-mark">BV</span>
+        <span class="brand-text">Buena Vida<small>Chiropractic · Springdale</small></span>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="staff.html">Our Team</a></li>
+        <li><a href="new-patients.html">New Patients</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+        <li><a class="btn btn--primary" href="contact.html#book">Book a Visit</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Contact</span>
+        <h1>Let's get you feeling better</h1>
+        <p class="lead">Call, email or send a request below and our team will get back to you to confirm a time.</p>
+      </div>
+    </section>
+
+    <section class="section" id="book">
+      <div class="container split" style="align-items:start">
+        <div class="card reveal">
+          <h2 style="font-size:1.8rem">Request an appointment</h2>
+          <form id="appointment-form" data-to="info@buenavidachiropractic.com">
+            <div class="field"><label for="name">Full name</label><input id="name" name="name" required autocomplete="name"></div>
+            <div class="grid grid-2" style="gap:16px">
+              <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" required autocomplete="tel"></div>
+              <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email"></div>
+            </div>
+            <div class="grid grid-2" style="gap:16px">
+              <div class="field">
+                <label for="service">Service</label>
+                <select id="service" name="service">
+                  <option>New patient exam</option>
+                  <option>Chiropractic adjustment</option>
+                  <option>Sports massage</option>
+                  <option>Acupuncture</option>
+                  <option>Auto / work injury</option>
+                  <option>Not sure yet</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="time">Preferred time</label>
+                <select id="time" name="time">
+                  <option>Morning</option>
+                  <option>Afternoon</option>
+                  <option>Evening</option>
+                  <option>Any time</option>
+                </select>
+              </div>
+            </div>
+            <div class="field"><label for="message">Anything we should know?</label><textarea id="message" name="message" rows="4"></textarea></div>
+            <button class="btn btn--primary" type="submit">Send request</button>
+            <p class="form-note">Please don't include sensitive medical details. For emergencies, call 911.</p>
+          </form>
+        </div>
+        <div class="reveal">
+          <h3>Visit us</h3>
+          <ul class="contact-list">
+            <li><span>&#128205;</span><span>Street address<br>Springdale, AR 72764</span></li>
+            <li><span>&#128222;</span><a href="tel:+14790000000">(479) 000-0000</a></li>
+            <li><span>&#9993;</span><a href="mailto:info@buenavidachiropractic.com">info@buenavidachiropractic.com</a></li>
+          </ul>
+          <h3 style="margin-top:32px">Hours</h3>
+          <!-- TODO(owner): confirm hours -->
+          <table class="hours">
+            <tr><td>Monday</td><td>9:00 am &ndash; 6:00 pm</td></tr>
+            <tr><td>Tuesday</td><td>9:00 am &ndash; 6:00 pm</td></tr>
+            <tr><td>Wednesday</td><td>9:00 am &ndash; 6:00 pm</td></tr>
+            <tr><td>Thursday</td><td>9:00 am &ndash; 6:00 pm</td></tr>
+            <tr><td>Friday</td><td>9:00 am &ndash; 1:00 pm</td></tr>
+            <tr><td>Saturday &ndash; Sunday</td><td>Closed</td></tr>
+          </table>
+          <div style="margin-top:28px;border-radius:18px;overflow:hidden;box-shadow:var(--shadow)">
+            <iframe title="Map to Buena Vida Chiropractic" src="https://www.google.com/maps?q=Buena+Vida+Chiropractic+Springdale+AR&output=embed" width="100%" height="280" style="border:0;display:block" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="grid">
+        <div>
+          <a class="brand" href="index.html">
+            <span class="brand-mark">BV</span>
+            <span class="brand-text">Buena Vida<small>Chiropractic · Springdale</small></span>
+          </a>
+          <p style="margin-top:18px">Live life naturally, optimally, and fully. Get back to living the Buena Vida &mdash; the good life.</p>
+        </div>
+        <div>
+          <h4>Care</h4>
+          <ul>
+            <li><a href="services.html#adjustments">Chiropractic Adjustments</a></li>
+            <li><a href="services.html#sports-massage">Sports Massage</a></li>
+            <li><a href="services.html#acupuncture">Acupuncture</a></li>
+            <li><a href="services.html#rehab">Corrective Exercise</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Practice</h4>
+          <ul>
+            <li><a href="staff.html">Our Team</a></li>
+            <li><a href="new-patients.html">New Patients</a></li>
+            <li><a href="new-patients.html#faq">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Visit</h4>
+          <ul>
+            <li>Street address</li>
+            <li>Springdale, AR 72764</li>
+            <li><a href="tel:+14790000000">(479) 000-0000</a></li>
+            <li><a href="mailto:info@buenavidachiropractic.com">info@buenavidachiropractic.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span data-year></span> Buena Vida Chiropractic. All rights reserved.</span>
+        <span>This site is for general information and is not a substitute for a professional diagnosis.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
