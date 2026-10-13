@@ -6,9 +6,9 @@ from layout import CONTACT, page
 ROOT = Path(__file__).resolve().parent.parent
 PAGES = {
     "index.html": ("Buena Vida Chiropractic | Springdale, AR Chiropractor",
-                   "Minority-owned chiropractic in Springdale, AR: adjustments, sports massage and corrective care."),
+                   "Minority-owned chiropractic in Springdale, AR: adjustments, sports massage, shockwave therapy and corrective care."),
     "services.html": ("Services | Buena Vida Chiropractic",
-                      "Chiropractic adjustments, sports massage, rehab, auto injury and wellness care in Springdale, AR."),
+                      "Chiropractic adjustments, sports massage, shockwave therapy, rehab, auto injury and wellness care in Springdale, AR."),
     "staff.html": ("Our Team | Buena Vida Chiropractic",
                    "Meet Dr. Anthony Le and the Buena Vida Chiropractic team in Springdale, Arkansas."),
     "new-patients.html": ("New Patients | Buena Vida Chiropractic",
