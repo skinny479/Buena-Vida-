@@ -67,7 +67,7 @@ def footer():
           <ul>
             <li><a href="services.html#adjustments">Chiropractic Adjustments</a></li>
             <li><a href="services.html#sports-massage">Sports Massage</a></li>
-            <li><a href="services.html#acupuncture">Acupuncture</a></li>
+            <li><a href="services.html#injury">Auto &amp; Work Injuries</a></li>
             <li><a href="services.html#rehab">Corrective Exercise</a></li>
           </ul>
         </div>

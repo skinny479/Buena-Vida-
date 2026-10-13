@@ -4,7 +4,7 @@ A redesigned static site for Buena Vida Chiropractic (Springdale, AR). It has no
 
 ## Pages
 - `index.html`: home (hero, mission, services overview, why us, first visit, reviews CTA)
-- `services.html`: adjustments, sports massage, acupuncture, rehab, auto/work injury, wellness
+- `services.html`: adjustments, sports massage, rehab, auto/work injury, wellness
 - `staff.html`: Dr. Anthony Le, the care team and values
 - `new-patients.html`: what to expect, what to bring, insurance, FAQ
 - `contact.html`: appointment request form, contact info, hours, map
