@@ -22,6 +22,5 @@ Preview: open `index.html` in a browser.
 ## Before launch: fill in placeholders
 Search for `TODO(owner)`:
 - Care team names, bios and photos (`src/pages/staff.html`)
-- Dr. Le's photo
 
 Online booking works by email: the appointment form opens the visitor's email app with the request filled in, addressed to the practice inbox.
