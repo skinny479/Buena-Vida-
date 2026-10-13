@@ -88,7 +88,7 @@ def footer():
             <li><a href="tel:{c['phone_href']}">{c['phone']}</a></li>
             <li>Fax: {c['fax']}</li>
             <li><a href="mailto:{c['email']}">{c['email']}</a></li>
-            <li style="margin-top:12px">Mon, Wed, Fri: 8:30&ndash;12 &amp; 3&ndash;6<br>Tue, Thu: 8:30&ndash;12</li>
+            <li style="margin-top:12px">Mon, Wed, Thu: 8:30&ndash;12 &amp; 3&ndash;6<br>Tue, Fri: 8:30&ndash;2</li>
           </ul>
         </div>
       </div>
