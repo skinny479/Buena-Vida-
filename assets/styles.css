@@ -268,3 +268,9 @@ form input:focus, form select:focus, form textarea:focus { outline: 2px solid va
 .dots i:nth-child(3) { width: 12px; height: 12px; }
 .dots i:nth-child(4) { width: 9px; height: 9px; }
 .dots i:nth-child(5) { width: 6px; height: 6px; }
+
+/* Team photo cards & gallery */
+.staff-card .staff-photo--img img { aspect-ratio: 1 / 1; height: auto; object-position: center top; }
+.gallery { display: grid; grid-template-columns: 1.1fr 1fr 1fr; gap: 18px; }
+.gallery img { width: 100%; height: 360px; object-fit: cover; border-radius: var(--radius); box-shadow: var(--shadow); }
+@media (max-width: 800px) { .gallery { grid-template-columns: 1fr; } .gallery img { height: 300px; } }
